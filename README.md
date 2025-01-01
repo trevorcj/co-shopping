@@ -16,6 +16,12 @@
 - **HTML, CSS, JavaScript:** For the frontend.
 - **Firebase Realtime Database:** Provides backend functionality for real-time synchronization.
 
+## Choices
+
+Initially, I considered using LocalStorage to manage the shopping list. However, LocalStorage only stores data locally on a user’s device, which meant no updates could be shared between users in real-time. This limitation made it unsuitable for a collaborative app like Co-Shopping."
+
+To overcome this, I implemented Firebase Realtime Database. Unlike LocalStorage, Firebase provides a centralized cloud-based solution that allows multiple users to access and update the same data in real-time. I was able to ensure that any changes made by one user are immediately visible to all other users, creating a seamless collaborative experience.
+
 ## Files
 
 - `index.html`: Main structure of the app.
@@ -64,3 +70,22 @@
      databaseURL: "your-database-url",
    };
    ```
+
+## Live Demo
+
+[Co-Shopping Live Demo](https://trevorcj.github.io/co-shopping/)
+
+---
+
+If you have any questions, feedback, or would like to connect, feel free to reach out:
+
+- **Email**: [trevorcjustus@gmail.com](mailto:trevorcjustus@gmail.com)
+- **LinkedIn**: [Connect on LinkedIn](https://ng.linkedin.com/in/trevorcjustus)
+
+I’m always open to constructive feedback and opportunities to improve. Let’s collaborate and build something amazing together.
+
+---
+
+### Acknowledgments
+
+This project was developed as part of CS50x, and I’m grateful for the learning experience and resources provided by the course team.
